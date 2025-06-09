@@ -78,6 +78,34 @@ button:hover {
   line-height: 1.5;
 }
 
+#popular-cities {
+  margin-bottom: 20px;
+}
+
+#popular-cities p {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.headingg{
+    color: white;
+}
+
+.city-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: none;
+  margin: 5px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.city-btn:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
 #weather-info.show {
   opacity: 1;
 }

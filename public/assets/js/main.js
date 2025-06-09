@@ -49,3 +49,12 @@ form.addEventListener("submit", async (e) => {
     console.error("Fetch error:", error);
   }
 });
+const cityButtons = document.querySelectorAll(".city-btn");
+
+cityButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const city = btn.textContent;
+    input.value = city;
+    form.dispatchEvent(new Event("submit"));
+  });
+});
